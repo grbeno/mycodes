@@ -1,0 +1,7 @@
+Plant type: Colza
+Image	px_found	(%)	
+14.png	1505	5.90	
+16.png	1766	6.93	
+19.png	610	2.39	
+27.png	1120	4.39	
+28.png	861	3.33	

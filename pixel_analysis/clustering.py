@@ -85,7 +85,7 @@ class Clustering():
                 self.percent.append(format(j*100,'.2f'))   
         
         plt.pie(self.percent,colors=np.array(self.centers/255),labels=self.percent)
-        plt.savefig(f"c:\\Python\\Python38-32\\portfolio_github\\pixel_analysis\\result\\cls_result")
+        plt.savefig(f"c:\\Python\\Python38-32\\myprojects\\pixel_analysis\\result\\cls_result")
         
         # Results <- round down!
         return self.centers.astype(int)  
@@ -94,8 +94,8 @@ class Clustering():
 if __name__ == "__main__":
 
     # Path of the image, set your own here!
-    img = "c:\\Python\\Python38-32\\portfolio_github\\pixel_analysis\\infra.png"
-    # Set the numbers of clusters - minimum cluster: 0, which means invalid input replace with 1!
+    img = "c:\\Python\\Python38-32\\myprojects\\pixel_analysis\\infra.png"
+    # Set the numbers of clusters - minimum cluster: 1, which means n<1 inputs replace with 1!
     clusters = 4
 
     cl = Clustering(img,clusters)
