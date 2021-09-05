@@ -1,0 +1,21 @@
+function rot13(str) {
+let shift = 0;
+let result = [];
+let isLetter = /[^A-Z]/gi;
+let isSpace = /[\s]/gi; 
+for(let i = 0; i < str.length; i++){
+  if(!isLetter.test(str[i]) && !isSpace.test(str[i])){
+    shift = str.charCodeAt(i)-13;
+    if(isLetter.test(String.fromCharCode(shift)))
+      shift = str.charCodeAt(i)+13;
+  }
+  else {
+    shift = str.charCodeAt(i);
+  }
+  result = result.concat(String.fromCharCode(shift));
+}
+
+ return result.join(''); 
+}
+
+console.log(rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT."));

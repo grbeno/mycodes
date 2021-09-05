@@ -1,0 +1,11 @@
+function palindrome(str) {
+  str = str.replace(/[^0-9A-Za-z]/gi,'');
+  let cmprStr = str.split('').reverse().join('');
+  if(str.toLowerCase() === cmprStr.toLowerCase())
+    return true;
+  return false;
+}
+
+
+
+console.log(palindrome("eye"));

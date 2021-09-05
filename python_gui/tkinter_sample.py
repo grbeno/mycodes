@@ -3,6 +3,8 @@ from tkinter import ttk
 from tkinter import messagebox
 
 
+# Submitting & presenting data given on tkinter windows
+
 def submit_0():
     messagebox.showinfo("Names",f"Name_0: {name0.get()}\nName_1: {name1.get()}\nName_2: {name2.get()}\n")
 
@@ -10,19 +12,21 @@ def submit_1():
     messagebox.showinfo("Values",f"Value_0: {value0.get()}\nValue_1: {value1.get()}\nValue_2: {value2.get()}\n")
 
 
-
 class Form(tk.Tk):
-
 
     def __init__(self):
        super().__init__()
        self.title("Tkinter example without formatting")
-       self.index = 0
-       self.left_column, self.right_column = 1, 2
+       # Responsible for setting row level while adding them!
+       self.index = 0 
+       # Setting widget to be in left or right column!
+       self.left_column, self.right_column = 1, 2 
        self.value_radio = tk.IntVar()
        self.value_radio.set(2)
-       
 
+
+    " Widgets ... "
+       
     " LABEL "
 
     def main_label(self, text):
@@ -42,7 +46,6 @@ class Form(tk.Tk):
         )
         self.index += 1
 
-
     " ENTRY "
 
     def input_field(self):
@@ -55,7 +58,6 @@ class Form(tk.Tk):
         )
         self.index += 1
         return value_entry
-
 
     " SPINBOX "
 
@@ -70,7 +72,6 @@ class Form(tk.Tk):
         self.index += 1
         return value_spinbox
 
-
     " COMBOBOX "
 
     def combo_box(self, inputValues):
@@ -84,7 +85,6 @@ class Form(tk.Tk):
         )
         self.index += 1
         return value_combo
-
 
     " RADIO BUTTON "
 
@@ -125,6 +125,8 @@ if __name__ == "__main__":
     combo_values = ["Juni","July","August"]
 
     tc = Form()
+
+    " How the window looks like ... "
     
     tc.notebook("Tab_1")
     tc.notebook("Tab_2")
