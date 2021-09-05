@@ -63,7 +63,8 @@ c.execute(result_atlag)
 avgs = c.fetchall()
 avgs.insert(0,("my_id","my_sample","my_value")) # + header 
 
-# OUTPUT -> csv file -> pdf table  
+# OUTPUT -> csv file -> pdf table
+  
 # Results to csv file
 newFile = f"{path}results\\avg.csv"
 csvout(newFile,avgs,3)
