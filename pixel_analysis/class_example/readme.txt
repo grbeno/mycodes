@@ -3,10 +3,10 @@
 
 	This is one of my first effort to create python code using oo paradigm.
 	With this code I would like to presenting an example for a self-created 'analysis class'.
-	Input images are about agricultural issues, flowering (colza in this case), diseases etc.
-	There are a lot of image processing methods and later can be tricky extending the class with new ones.
+	There are a lot of image processing methods in the universe and later can be tricky extending the class with new ones.
 	The only method applied here is euclidean distance measuring between pixel (image) and sample (object) rgb values.
-	I hope this class will be extendable and maintainable.
+	Input images are about agricultural objects, flowering (colza in this case), other plant phenophases, diseases etc.
+	/* I hope this class will be really extendable and maintainable. */
 
 	* Python libraries you need to import:
 	
@@ -20,7 +20,7 @@
 		o args: path <- path of image, plant <- type of plant on the image, sample <- typical rgb of the object, limit <- max. distance from the sample  
 		o initialize the instances
 	- init_image
-		o args: fname <- name of the image file, mode <- None by default, L(greyscaled), RGB etc.
+		o args: fname <- name of the image file, mode <- None by default, or L(greyscaled), RGB etc.
 		o open new image file, prepare image attributes for the instances: pixels, width, height, size 
 	
 	* Methods for technical issues -> "METHOD type:1"
@@ -47,10 +47,10 @@
 	- run_analysis
 		o args: -
 		o iterating over the image files
-		o calling the init_image to open image and get attributes
-		o calling the type 2 methods to analysing the images
+		o calling the init_image to open image and get image attributes
+		o calling the type2 methods to analyse images
 		o closing the current image 
-		o appending the results of type 2 methods to lists	
+		o appending the results of type2 methods to lists	
 	
 	* Get the results:
 
