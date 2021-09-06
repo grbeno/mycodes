@@ -1,0 +1,43 @@
+
+	*** Pixel_analysis/clustering.py ***
+
+	This python code is an implementation of K-mean clustering. 
+	The goal of this code is to applying color measurement on images created by satellites. 
+	My guess was K-mean clusters could represent the dominant colors of the images.
+
+	* Python libraries you need to import:
+	
+	- os 
+	- you need to download & install with pip or something like this: 
+		o cv2(OpenCV), numpy, sklearn, matplotlib
+	
+	* Methods:
+	
+	- constructor
+		o args: path <- path of image, clusters <- numbers of clusters
+		o initialize the instances
+	- cluster_input_correction
+		o args: clusters
+		o set minimum cluster(=1) on case (n<1, added by user)
+	- distance
+		o args: pix <- current color, color <- color to compare with
+		o measure distance from background color (mask) to tackle possible blurs
+	- center_find
+		o args: ndarr <- center , bcolor <- background color (mask)
+		o find the center which represents background
+	- get_cldatas
+		o args: color <- color to find and delete , centers <- contains the color, clt_labels <- contains the color
+		o delete background center from the centers
+		o delete background labels from the labels
+ 		o update centers & labels
+	- clustering
+		o args: -
+		o clustering the input image without background color (mask)
+		o measure relative appearances of the labels
+		o create & save a pie diagram of the results
+
+	detected incompletion:
+		* for more images : looping -> processing
+		
+		
+
