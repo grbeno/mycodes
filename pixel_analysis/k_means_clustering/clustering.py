@@ -35,6 +35,8 @@ class Clustering():
 
 
     " K-MEANS CLUSTERING "
+    
+    " 1. Preparation "
 
     def __distance(self, pix,color):
         " Euclidean distance - detect background pixels - not only the exact color "
@@ -64,7 +66,8 @@ class Clustering():
             labels = clt_labels
         return (centers, list(labels))
 
-        
+    " 2. Clustering "
+
     def clustering(self):
         " Info: cluster centers == array indexes: e.g. cluster_centers_[0] -> 0 "
         clt = KMeans(n_clusters = self.clusters)
