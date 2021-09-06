@@ -1,10 +1,11 @@
 	
-	*** analysis_class/class_sample.py ***
+	*** pixel_analysis/class_example/class_sample.py ***
 
 	This is one of my first effort to create python code using oo paradigm.
 	With this code I would like to presenting an example for a self-created 'analysis class'.
 	Input images are about agricultural issues, flowering (colza in this case), diseases etc.
 	There are a lot of image processing methods and later can be tricky extending the class with new ones.
+	The only method applied here is euclidean distance measuring between pixel (image) and sample (object) rgb values.
 	I hope this class will be extendable and maintainable.
 
 	* Python libraries you need to import:

@@ -1,9 +1,9 @@
+	
+	*** pixel_analysis/k_means_clustering/clustering.py ***
 
-	*** Pixel_analysis/clustering.py ***
-
-	This python code is an implementation of K-mean clustering. 
+	This python code is an implementation of k-means clustering. 
 	The goal of this code is to applying color measurement on images created by satellites. 
-	My guess was K-mean clusters could represent the dominant colors of the images.
+	My guess was k-means clusters could represent the dominant colors of the images.
 
 	* Python libraries you need to import:
 	
@@ -21,6 +21,7 @@
 	- cluster_input_correction
 		o args: clusters
 		o set minimum cluster(=1) on case (n<1, added by user)
+		/* By the way, this is just a poor input validation :( */
 
 	- distance
 		o args: pix <- current color, color <- color to compare with
@@ -44,6 +45,7 @@
 
 
 	detected incompletion:
+		* poor input validation already mentioned
 		* for more images : looping -> processing
 		
 		

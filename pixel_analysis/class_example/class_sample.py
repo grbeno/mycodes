@@ -128,7 +128,7 @@ if __name__ == "__main__":
     
     " Input "
     
-    path = "c:\\Python\\Python38-32\\myprojects\\analysis_class\\"  
+    path = "c:\\Python\\Python38-32\\myprojects\\pixel_analysis\\class_example\\"  
     plant = "Colza"
     sample = (93,118,106)
     limit = 25
