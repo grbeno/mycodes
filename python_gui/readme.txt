@@ -18,7 +18,7 @@
 		o initialize the instances
 		o adding title to the top of the window
 		o index, left_column, right_column instance variables are responsible for widget ordering
-		o setting radio button to default=2 (2nd)
+		o setting radio button to default=2
 
 	** Widgets:
 	
