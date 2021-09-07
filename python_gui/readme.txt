@@ -32,13 +32,10 @@
 	
 	- after Form class
 		o defining the widgets as instances one after another according to their placing parameters 
-
-	/* 
 	
-	- Ideas: 
-		o It would be great if widget rows & columns would be more flexibile <- more control by the user 		
-	*/
 
+	- Ideas: 
+		o It would be great if widget rows & columns would be more flexibile <- more control by the user
 	
 
 	
