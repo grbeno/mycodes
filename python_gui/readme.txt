@@ -34,7 +34,7 @@
 		o defining the widgets as instances one after another according to their placing parameters 
 	
 
-	- Ideas: 
+	** Ideas: 
 		o It would be great if widget rows & columns would be more flexibile <- more control by the user
 	
 
