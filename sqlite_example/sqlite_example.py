@@ -21,7 +21,7 @@ def csvin(fname):
         data = [tuple(i) for i in reader] 
     return data
 
-def csvout(out_csv, data, col):
+def csvout(out_csv, data):
     " Write fetched data to csv file "
     with open(out_csv, 'w', newline='') as f:
         writer = csv.writer(f, delimiter=';')
@@ -67,7 +67,7 @@ avgs.insert(0,("my_id","my_sample","my_value")) # + header
   
 # Results to csv file
 newFile = f"{path}results\\avg.csv"
-csvout(newFile,avgs,3)
+csvout(newFile,avgs)
 
 # Results to pdf file
 width, height = A4

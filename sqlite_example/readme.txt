@@ -16,7 +16,7 @@
 		o args: fname <- name of the csv file to read
 		o reading the rows of the csv table to a list of tuples (data)
 	- csvout
-		o args: fname <- name of the csv file to write
+		o args: out_csv <- name of the csv file to write, data <- data to write into the 'out_csv' file
 		o writing the results to the csv file 'avg.csv'
 
 	** Algorithm:
