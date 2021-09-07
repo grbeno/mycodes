@@ -1,4 +1,3 @@
-	
 	*** pixel_analysis/k_means_clustering/clustering.py ***
 
 	This python code is an implementation of k-means clustering. 
@@ -6,6 +5,7 @@
 	My input image is a white masked infrared image made by satellite.
 	Before clustering the dominant colors this programme filter and delete the white background from the centers. 
 	/* My idea was k-means clusters could represent the dominant colors of the images. */
+
 
 	* Python libraries you need to import:
 	

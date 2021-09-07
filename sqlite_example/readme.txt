@@ -1,4 +1,3 @@
-	
 	*** sqlite_example/sqlite_example.py ***
 
 	We have a data table (my_table.csv) with columns [ 'Id', my_id, 'my_value'->(float) ] 

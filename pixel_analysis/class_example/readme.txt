@@ -1,4 +1,3 @@
-	
 	*** pixel_analysis/class_example/class_sample.py ***
 
 	This is one of my first effort to create python code using oo paradigm.
@@ -7,6 +6,7 @@
 	The only method applied here is euclidean distance measuring between pixel (image) and sample (object) rgb values.
 	Input images are about agricultural objects, flowering (colza in this case), other plant phenophases, diseases etc.
 	/* I hope this class will be really extendable and maintainable. */
+
 
 	* Python libraries you need to import:
 	
