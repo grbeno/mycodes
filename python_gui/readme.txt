@@ -1,6 +1,6 @@
 	*** python_gui/tkinter_sample.py ***
 
-	GUI (Graphical User Interface) helps users to add input data processing by programmes. 
+	GUI (Graphical User Interface) helps users to add input data processing by methods. 
 	I used tkinter here to present a simple user window with some tkinter widgets e.g. labels, entries (input field), spinboxes, comboboxes etc.
 
 	
