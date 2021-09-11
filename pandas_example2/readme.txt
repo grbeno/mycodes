@@ -1,6 +1,8 @@
 ** Very brief readme to a very brief code
  
 * Pandas groupby example
+* input file: data.csv
+* output file. results.xlsx
 * Using size, mean, minimum, maximum, standard deviation to datasets grouped by column name.
 * Adding to the above mentioned <- coefficient of variation[%]: (std/mean)*100
 * The code or the attached data files can contain also hungarian words. It was a hungarian job!

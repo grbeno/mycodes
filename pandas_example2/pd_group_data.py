@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 class groupData():
     
     def __init__(self, table,colname):
@@ -23,7 +22,6 @@ class groupData():
 
         " Save datas to excel file with sheet name 'results' "        
         self.resInDataframe().to_excel("c:\\Python\\Python38-32\\mycodes\\pandas_example2\\results.xlsx",sheet_name='results')
-
 
     def __readCsv(self, csvfile):
         " Read csv file ... "
