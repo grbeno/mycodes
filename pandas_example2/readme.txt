@@ -1,6 +1,6 @@
 ** Very brief readme to a very brief code
  
-* Pandas groupby example
+* Pandas groupby example \ extended 'pandas_example'
 * input file: data.csv
 * output file. results.xlsx
 * Using size, mean, minimum, maximum, standard deviation to datasets grouped by column name.
