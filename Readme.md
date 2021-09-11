@@ -2,8 +2,9 @@
 My name is Benedek Gráczol and this repo is not really a real world project to run almost immediately on your computer, this would be my portfolio instead, collection of my codes or something like this. 😊
 
 ### The goal why I created this repo:
-(1) To present some details about coding issues and mini projects in which I participated.<br/>
-(2) To help my future self if I forget something solved before.
+***(1)*** To present some details about coding issues and mini projects in which I participated.<br/>
+***(2)*** It's always good if we can help for someone, so I will try to boost this repo.<br/>
+***(3)*** To help my future self if I forget something solved before.
   
 ### The reason why I created this repo:
 I have mentioned things about programming in my resume and on my linkedin page, so now I think, it would be correct if I push some of my codes to GitHub.
