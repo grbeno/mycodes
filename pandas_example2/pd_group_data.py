@@ -36,7 +36,7 @@ class groupData():
         # Columns: table name, sum of samples, maximum value, minimum value, mean, standard deviation, coefficient of variation: (std/mean)*100
         # Return value: pandas DataFrame    
         d = {
-            'Tábla': self.tab_MEAN['TÁBLA'], 'Adatszám': self.sample, \
+            'Tábla': self.tab_MEAN['TABLA'], 'Adatszám': self.sample, \
 
             # You can add more lines <- columns here ...
         
@@ -55,7 +55,7 @@ if __name__ == "__main__":
     # path of input csv file
     table = "c:\\Python\\Python38-32\\mycodes\\pandas_example2\\data.csv" 
     # group by this column name
-    colname = 'TÁBLA' 
+    colname = 'TABLA' 
     
     c = groupData(table,colname)
     
