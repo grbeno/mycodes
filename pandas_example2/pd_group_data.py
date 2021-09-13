@@ -8,7 +8,7 @@ class groupData():
         self.tab = self.__readCsv(table)
         " Counting used by groupby method "
         # Sample number of set
-        self.sample = list(self.tab.groupby(self.col).size().values)
+        self.sample = list(self.tab.groupby(self.col,sort=False).size().values)  # sort=False -> keep order!
         # Get minimum value of set
         self.tab_MIN = self.__group(self.tab,self.col).min().round(2)
         # Get maximum value of set   
