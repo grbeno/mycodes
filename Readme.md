@@ -14,6 +14,6 @@ These codes are a kind of selection and I have selected them because they were v
 These codes are snippets, some of them are part of code modules or one of my program. The algorithms, list comprehension, mapping, pandas, sql queries (sorry if I left out someone!) helped me a lot.
 
 ### What else have I got?
-I wrote VBA and C codes earlier, but as you will notice I have not added these to repo. Honestly, I have not dealt with these programming languages for a while. On my Wordpress site you can find VBA and C codes as well and a section about Django framework and web development.
+I wrote VBA and C codes earlier, but as you will notice I have not added these to repo. Honestly, I have not dealt with these programming languages for a while. On my Wordpress site you can find VBA and C codes as well and a section about Django framework and web development. Direct link t this: http://mysite-grbeno.herokuapp.com/
 
 Thank you for reading my readme! 😊
