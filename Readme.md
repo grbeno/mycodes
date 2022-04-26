@@ -7,7 +7,7 @@ This repo is basically referring to the content of my website https://graczolben
 ***(2)*** To help my future self if I forget something solved before.
   
 ### The reason why I created this repo:
-I have mentioned things about programming in my resume and on my linkedin page, so now I think, it would be correct if I push some of my codes to GitHub. Moreover my website is written in Hungarian, so it would be useful adding English descriptions as well.
+I have mentioned things about programming in my resume and on my linkedin page, so now I think, it would be correct if I push some of my codes to GitHub. Moreover the most part of my website is written in Hungarian, so it would be useful adding English descriptions as well.
 
 ### What are these codes?
 These codes are a kind of selection and I have selected them because they were very useful when I faced to coding issues.
