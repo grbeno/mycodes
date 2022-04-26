@@ -1,5 +1,6 @@
 ## Hello everyone!
 My name is Benedek Gráczol and this repo is not really a real-world project to run almost immediately on your computer, this would be a collection of my codes or something like this. 😊
+
 This repo is basically referring to the content of my website https://graczolbenedek.com/wp/.
 
 ### The goal(s) why I created this repo:
