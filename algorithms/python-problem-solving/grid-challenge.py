@@ -8,7 +8,7 @@ grid = ['ebacd', 'fghij', 'olmkn', 'trpqs', 'xywuv']
 n = len(grid)
 
 # O(n^2) solution:
-res=[]
+
 no=0
 for i in range(n):
     l,col = '',''
@@ -34,7 +34,6 @@ for s in grid:
 
 cols = zip(*rows) # transpose the array
 
-res=[]
 no=0
 for c in cols:
     if ''.join(sorted(c)) != ''.join(c): # check if it is not ordered
@@ -45,3 +44,4 @@ if no == 1:
     print('NO')
 else:
     print('YES')
+
