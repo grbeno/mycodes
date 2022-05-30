@@ -9,6 +9,7 @@ n = len(grid)
 
 # O(n^2) solution:
 res=[]
+no=0
 for i in range(n):
     l,col = '',''
     for s in grid:
@@ -16,10 +17,10 @@ for i in range(n):
         col = l + asc[i]
         l = col
     if ''.join(sorted(col)) != col:
-        res.append('NO')
+        no = 1
 
 # Evaluation
-if any(r=='NO' for r in res):
+if no == 1:
     print('NO')
 else:
     print('YES')
@@ -34,12 +35,13 @@ for s in grid:
 cols = zip(*rows) # transpose the array
 
 res=[]
+no=0
 for c in cols:
     if ''.join(sorted(c)) != ''.join(c): # check if it is not ordered
-        res.append('NO')
+        no = 1
 
 # Evaluation
-if any(r=='NO' for r in res):
+if no == 1:
     print('NO')
 else:
     print('YES')
