@@ -5,8 +5,9 @@ from typing import Dict, List
 
 # Parsing json for values by key/target
 
-def find_values(data: Dict[str, str], target: str, res: List = []) -> List[str]:
+def find_values(data: Dict[str, str], target: str, res: list) -> List[str]:
     """ Finding values by target-key inside nested json data recursively """    
+    
     if type(data) is dict:
         for key,value in data.items():
             if key == target:
@@ -25,7 +26,7 @@ json_file = open('teszt-json.json')
 data = json.load(json_file) # type -> dictionary
 json_file.close()
 
-vals = find_values(data,'value')
+vals = find_values(data,'value',res=[])
 print(vals)
 # Printing the mean of the founded values
 vals = map(lambda x: float(x), vals) # convert elements to float
