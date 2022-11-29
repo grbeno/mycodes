@@ -30,7 +30,7 @@ vals = find_values(data,'value',res=[])
 print(vals)
 # Printing the mean of the founded values
 vals = map(lambda x: float(x), vals) # convert elements to float
-print(f"Mean: {round(stat.mean(vals),2)}")
+print(f"Mean: {stat.mean(vals):.2f}")
 
 
 
